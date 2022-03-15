@@ -18,8 +18,8 @@ public class StudentService {
 		Student std8 = new Student("Venky", 10, 5.0, true, Arrays.asList("Cricket","Shuttle","Squash"));
 		Student std9 = new Student("Satyam", 1, 1.9, true, Arrays.asList("Cricket"));
 		Student std10 = new Student("Ravi", 2, 3.9, true, Arrays.asList("Cricket","Volley"));
-		
-		List<Student> students = Arrays.asList(std1,std2,std3,std4,std5,std6,std7,std8,std9,std10);
+		Student std11 = new Student("ABC",4,4.5,false,Arrays.asList("Cricket","Volley","Chess","Carrom"));
+		List<Student> students = Arrays.asList(std1,std2,std3,std4,std5,std6,std7,std8,std9,std10,std11);
 		return students;
 		
 	}
